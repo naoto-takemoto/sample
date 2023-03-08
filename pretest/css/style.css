@@ -1,0 +1,286 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*~~~ Header Sction ~~~*/
+
+.header {
+    background-image: url(../img/head.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 95vh;
+}
+
+.header-nav {
+    background-color: #000;
+    opacity: .8;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding-left:50px;
+    height: 10vh;
+    position: fixed;
+    z-index: 1;
+}
+.header-logo {
+    width: 40%;
+}
+
+.header-nav ul {
+    display: flex;
+    width: 100%;
+    padding-left: 200px;
+    font-size: 15px;
+}
+
+.header-nav ul li a {
+    color: #c4c4c4;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.header-nav ul li a:hover {
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.header-title p {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.header-title h1 {
+    font-size: 70px;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+button {
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #ffe537;
+    cursor: pointer;
+}
+
+button:hover {
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgb(255, 204, 0);
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+button a {
+    opacity: 0.8;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+button a:hover {
+    opacity: 1;
+}
+
+/* ~~~ Main section ~~ */
+
+/* ~~ Section1 ~~ */
+
+.wrapper {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.section-title p {
+    font-style: italic;
+    color: #6c757d;
+    font-weight: 100;
+}
+
+.section-contents {
+    display: flex;
+    margin-top: 100px;
+}
+
+.content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.cercle {
+    background-color: #ffe537;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+span {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 170%;
+}
+
+.content h3 {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.content p {
+    font-size: 12px;
+    font-weight: 100;
+    width: 90%;
+}
+
+/* ~~Section2~~ */
+.contents2:first-of-type {
+    margin-top: 200px;
+}
+
+.section2-text {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.section2-text2 {
+    text-align: right;
+    margin-right: 80px;
+}
+
+
+.section2-text h3,.section2-text2 h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cours_table {
+    margin-top: 50px;
+    border: 2px solid #ffe537;
+    text-align: center;
+}
+
+.cours_table tr:nth-child(1) {
+    height: 100px;
+    background-color: #ffe537;
+    color: #fff;
+}
+
+.cours_table tr:nth-child(2) {
+    height: 150px;
+    background-color: #fef08e;
+    color: #6c757d;
+}
+
+.cours_table tr:nth-child(3) {
+    height: 210px;
+}
+
+th:not(:first-of-type),td:not(:first-of-type) {
+    border-left: 1px solid #d1d5d4;
+}
+
+
+.t-txt {
+    color: #6c757d;
+    font-weight: 200;
+}
+
+/* ~~Section3~~ */
+
+.section3 {
+    background-color: #212529;
+    margin-top: 20px;
+    padding-top: 20%;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.s-t3 {
+    color: #ffff;
+}
+
+.contact {
+    padding-top: 10%;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    height: 80px;
+}
+
+input::placeholder {
+    padding-left: 10px;;
+}
+
+textarea {
+    width: 100%;
+}
+
+textarea::placeholder {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+/* ~~fotter~~ */
+.fotter {
+    height: 70px;
+    background-color: #333333;
+    text-align: center;
+    padding: 60px;
+}
+
+.fotter p {
+    color: #fff;
+}
+
+
+
